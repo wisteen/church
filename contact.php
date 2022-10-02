@@ -115,19 +115,20 @@
 				</div>
 				<div class="col-md-7 col-md-pull-2 animate-box">
 					<div class="row">
+						<form action="#">
 						<div class="col-md-6">
 							<div class="form-group">
-								<input type="text" class="form-control uname" placeholder="Name">
+								<input type="text" class="form-control uname" name="name" placeholder="Name">
 							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="form-group">
-								<input type="text" class="form-control uemail" placeholder="Email">
+								<input type="text" class="form-control uemail" name="email" placeholder="Email">
 							</div>
 						</div>
 						<div class="col-md-12">
 							<div class="form-group">
-								<textarea name="" class="form-control umessage" id="" cols="30" rows="7" placeholder="Message"></textarea>
+								<textarea name="message" class="form-control umessage" id="" cols="30" rows="7" placeholder="Message"></textarea>
 							</div>
 						</div>
 						<div class="col-md-12">
@@ -135,6 +136,7 @@
 								<input type="submit" value="Send Message" class="btn btn-primary usend">
 							</div>
 						</div>
+						</form>
 					</div>
 				</div>
 			</div>
