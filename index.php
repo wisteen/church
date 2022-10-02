@@ -76,39 +76,8 @@
 	<div class="fh5co-loader"></div>
 
 	<div id="page">
-		<nav class="fh5co-nav" role="navigation">
-			<div class="container-wrap">
-				<div class="top-menu">
-					<div class="row">
-						<div class="col-md-12 col-offset-0 text-center">
-							<div id="fh5co-logo"><a href="index.html"><img src="images/logo with te.png"
-										alt="Citadel of Mercy Logo"></a></div>
-						</div>
-						<div class="col-md-12 col-md-offset-0 text-center menu-1">
-							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="sermons.html">Sermons</a></li>
-								<li class="has-dropdown">
-									<a href="news.html">Anouncement</a>
-									<ul class="dropdown">
-										<li><a href="#">Ministry</a></li>
-										<li><a href="#">My Dorcas Shall Not Die</a></li>
-										<li><a href="#">Medical Missionary</a></li>
-										<li><a href="#">Country Living</a></li>
-										<li><a href="#">Gospel Workers</a></li>
-									</ul>
-								</li>
-								<li><a href="events.html">Events</a></li>
-								<li><a href="about.html">About</a></li>
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="#" class="donate">Donate</a></li>
-							</ul>
-						</div>
-					</div>
+	<?php require "parts/header.php"; ?>
 
-				</div>
-			</div>
-		</nav>
 		<div class="container-wrap">
 			<aside id="fh5co-hero">
 				<div class="flexslider">
@@ -238,7 +207,7 @@
 							<div class="desc">
 								<h3><a href="#">SUNDAY SERVICE</a></h3>
 								<p>Come worship with us in servicing Gods presence every Sunday from 8AM to ...</p>
-								<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+								<!-- <a href="#">Read More <i class="icon-arrow-right3"></i></a> -->
 							</div>
 						</div>
 					</div>
@@ -250,7 +219,7 @@
 								<h3><a href="#">BIBLE STUDY</a></h3>
 								<p>Our Bible Studies holds every Tuesday from 6PM come experience God's Divine Purpose
 									for man through his ...</p>
-								<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+								<!-- <a href="#">Read More <i class="icon-arrow-right3"></i></a> -->
 							</div>
 						</div>
 					</div>
@@ -264,7 +233,7 @@
 								<h3><a href="#">SOLUTION HOUR</a></h3>
 								<p>The solution is older than the problem come with any form of sickness, Disease or
 									iss...</p>
-								<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+								<!-- <a href="#">Read More <i class="icon-arrow-right3"></i></a> -->
 							</div>
 						</div>
 					</div>
@@ -321,46 +290,16 @@
 					<div class="col-md-10 col-md-offset-1">
 						<div class="row animate-box">
 							<div class="owl-carousel owl-carousel-fullwidth">
-								<div class="item">
-									<div class="bible-verse-slide active text-center">
-										<h2 class="Testimony">Recent Testimonies</h2>
-										<b>I will declare thy name unto my brethren: in the midst of the congregation
-											will I praise thee - (Psalm 22:22)</b>
-										<blockquote>
-											<p>&ldquo;For God so loved the world, that he gave his only begotten Son,
-												that whosoever believeth in him should not perish, but have everlasting
-												life.&rdquo;</p>
-											<span>Sis. John Doe</span>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="bible-verse-slide active text-center">
-										<h2 class="Testimony">Recent Testimonies</h2>
-										<b>I will declare thy name unto my brethren: in the midst of the congregation
-											will I praise thee - (Psalm 22:22)</b>
-										<blockquote>
-											<p>&ldquo;The LORD [is] my strength and my shield; my heart trusted in him,
-												and I am helped: therefore my heart greatly rejoiceth; and with my song
-												will I praise him.&rdquo;</p>
-											<span>Bro. John Doe</span>
-										</blockquote>
-									</div>
-								</div>
-								<div class="item">
-									<div class="bible-verse-slide active text-center">
-										<h2 class="Testimony">Recent Testimonies</h2>
-										<b>I will declare thy name unto my brethren: in the midst of the congregation
-											will I praise thee - (Psalm 22:22)</b>
-										<blockquote>
+							
+							<!-- This is connection to display testimonies	 -->
 
-											<p>&ldquo;And we have known and believed the love that God hath to us. God
-												is love; and he that dwelleth in love dwelleth in God, and God in
-												him.&rdquo;</p>
-											<span>Pst. John Doe</span>
-										</blockquote>
-									</div>
-								</div>
+								<?php 
+									require "config/db.php";
+									require "views/views.php";
+									viewTestimonies("testimonies", $conn, 2);
+								?>
+							<!-- ended here -->
+
 							</div>
 						</div>
 					</div>
@@ -374,39 +313,17 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4 animate-box">
-						<div class="events-entry">
-							<span class="date">September 1, 2022</span>
-							<h3><a href="#">Papa's Birthday</a></h3>
-							<p>Join us to celebrate the grace and the power of God in the life of...</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-						</div>
-					</div>
-
-					<div class="col-md-4 animate-box">
-						<div class="events-entry">
-							<span class="date">September 1, 2022</span>
-							<h3><a href="#">Papa's Birthday</a></h3>
-							<p>Join us to celebrate the grace and the power of God in the life of...</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-						</div>
-					</div>
-
-					<div class="col-md-4 animate-box">
-						<div class="events-entry">
-							<span class="date">September 1, 2022</span>
-							<h3><a href="#">Papa's Birthday</a></h3>
-							<p>Join us to celebrate the grace and the power of God in the life of...</p>
-							<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-						</div>
-					</div>
-
+				<!-- //// This is for aouncements upcomming events -->
+								<?php 
+									require "config/db.php";
+									viewEvents("upcoming_event", $conn, 2, true);
+								?>
 				</div>
 			</div>
 			<div id="fh5co-news" class="fh5co-light-grey">
 				<div class="row animate-box">
 					<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-						<h2>Special Encounters</h2>
+						<h2>Special Encounters / Anouncement</h2>
 						<p></p>
 					</div>
 				</div>
@@ -414,92 +331,46 @@
 					<div class="col-md-3 animate-box">
 						<div class="news">
 							<a href="#" class="img-holder"><img class="img-responsive" src="images/new/prayer.jpg"
-									alt="Free HTML5 Website Template by freehtml5.co"></a>
+									alt="Need Special Counsel?"></a>
 							<div class="desc">
-								<span class="date">March 30, 2017</span>
+								<span class="date">All seasons</span>
 								<h3><a href="#">Need Prayer?</a></h3>
 								<p>No matter what you’re facing,
 									we’d love to pray with you!</p>
-								<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+								<a href="tel:+12345566">Call here <i class="icon-arrow-right3"></i></a>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-3 animate-box">
 						<div class="news">
 							<a href="#" class="img-holder"><img class="img-responsive" src="images/council.jpg"
-									alt="Free HTML5 Website Template by freehtml5.co"></a>
+									alt="Need Special Counsel?"></a>
 							<div class="desc">
-								<span class="date">March 30, 2017</span>
+								<span class="date">Every Monday</span>
 								<h3><a href="#">Need Special Counsel?</a></h3>
 								<p>The pastor is here to serve you.
 									Don't carry that burden alone.</p>
-								<a href="#">Read More <i class="icon-arrow-right3"></i></a>
+								<a href="tel:+12345566">Call Here <i class="icon-arrow-right3"></i></a>
 							</div>
 						</div>
 					</div>
-					<div class="col-md-3 animate-box">
-						<div class="news">
-							<a href="#" class="img-holder"><img class="img-responsive" src="images/img-2.jpg"
-									alt="Free HTML5 Website Template by freehtml5.co"></a>
-							<div class="desc">
-								<span class="date">March 30, 2017</span>
-								<h3><a href="#">Helping Children</a></h3>
-								<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
-									provident. Odit ab aliquam dolor eius.</p>
-								<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 animate-box">
-						<div class="news">
-							<a href="#" class="img-holder"><img class="img-responsive" src="images/img-4.jpg"
-									alt="Free HTML5 Website Template by freehtml5.co"></a>
-							<div class="desc">
-								<span class="date">March 30, 2017</span>
-								<h3><a href="#">Helping Children</a></h3>
-								<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem
-									provident. Odit ab aliquam dolor eius.</p>
-								<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-							</div>
-						</div>
-					</div>
+				
+				
+					<?php 
+					require "config/db.php";
+					viewAnouncement("announcement", $conn, 2);
+
+					?>
+
+
 				</div>
 			</div>
-		</div><!-- END container-wrap -->
+		</div>
+		
+		<!-- END container-wrap -->
 
 		<div class="container-wrap">
-			<footer id="fh5co-footer" role="contentinfo">
-				<div class="col-md-4 text-center">
-					<h3 style="text-transform: capitalize;">Citadel Of Mercy International Church KM 4 Lasu/Igando
-						Expressway Beside Mobile Filling Station, Lanre B/Stop, Igando, Lagos.</h3>
-				</div>
-				<div class="col-md-4 text-center">
-					<h2><a href="#">Citadel Of Mercy</a></h2>
-				</div>
-				<div class="col-md-4 text-center">
-					<p>
-					<ul class="fh5co-social-icons">
-						<li><a href="#"><i class="icon-twitter2"></i></a></li>
-						<li><a href="#"><i class="icon-facebook2"></i></a></li>
-						<li><a href="#"><i class="icon-instagram"></i></a></li>
-						<!-- <li><a href="#"><i class="icon-2"></i></a></li> -->
-					</ul>
-					</p>
-				</div>
-				<div class="row copyright">
-					<div class="col-md-12 text-center">
-						<p>
-							<small class="block">&copy; 2022 Citadel Of Mercy. All Rights Reserved.</small>
-							<small class="block">Designed by <a href="#" target="_blank">wisteen-technology
-
-								</a>
-								<!-- $<a
-									href="#" target="_blank">wisteen</a> -->
-							</small>
-						</p>
-					</div>
-				</div>
-			</footer>
+			<?php require "parts/footer.php";?>
 		</div><!-- END container-wrap -->
 	</div>
 

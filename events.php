@@ -1,3 +1,49 @@
+<?php
+include "config/db.php";
+
+$id = "";
+$image = "";
+$description = "";
+$title = "";
+
+if($_SERVER['REQUEST_METHOD'] == "GET"){
+	// echo $_GET['id'];
+	$id = $_GET['id'];
+
+	if(!isset($_GET['id'])){
+		header("location:index.php");
+		exit;
+	} else{
+		try {
+			//code...
+			$sql = "SELECT * FROM upcoming_event WHERE id = $id";
+			$query = mysqli_query($conn, $sql);
+		
+			$total =  mysqli_num_rows($query);
+
+			
+		
+			if ($total > 0){
+				while($row = mysqli_fetch_assoc($query)) {
+					$image = $row["event_image"];
+					$description = $row['event_description'];
+					$title = $row["event_title"];
+					$date = $row['event_date'];
+					
+				}
+			}
+		} catch (\Throwable $th) {
+			//throw $th;
+			header("location:error.php?error=Page not found&type=404");
+		}
+		
+	}
+}
+
+
+
+
+?>
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -76,38 +122,8 @@
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<nav class="fh5co-nav" role="navigation">
-		<div class="container-wrap">
-			<div class="top-menu">
-				<div class="row">
-					<div class="col-md-12 col-offset-0 text-center">
-						<div id="fh5co-logo"><a href="index.html"><img src="images/logo with te.png"
-							alt="Citadel of Mercy Logo"></a></div>
-					</div>
-					<div class="col-md-12 col-md-offset-0 text-center menu-1">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="sermons.html">Sermons</a></li>
-							<li class="has-dropdown">
-								<a href="news.html">News</a>
-								<ul class="dropdown">
-									<li><a href="#">Ministry</a></li>
-									<li><a href="#">Medical Missionary</a></li>
-									<li><a href="#">Country Living</a></li>
-									<li><a href="#">Gospel Workers</a></li>
-								</ul>
-							</li>
-							<li class="active"><a href="events.html">Events</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="contact.html">Contact</a></li>
-							<li><a href="#" class="donate">Donate</a></li>
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-		</div>
-	</nav>
+	<?php require "parts/header.php"; ?>
+	
 	<div class="container-wrap">
 		<aside id="fh5co-hero">
 			<div class="flexslider">
@@ -131,6 +147,26 @@
 			  	</ul>
 		  	</div>
 		</aside>
+
+		<aside id="fh5co-main">
+		<div class="row animate-box">
+				<div style="margin-bottom:0;pading-bottom:0" class="col-md-6  col-md-offset-3 fh5co-heading">
+					<h1  class="text-center col-md-offset-3"><?= $title; ?></h1>
+				</div>
+				
+			</div>
+
+				<div class="row animate-box">
+					<div class="col-md-6">
+						<h3 class="col-xs-offset-1"><?= $description; ?></h3>
+					</div>
+					<div class="col-md-6">
+						<h3 class="col-xs-offset-1"><img src="img/<?= $image; ?>" class='img-responsive ' alt=""></h3>
+						<i class=""><?= $date; ?></i>
+					</div>
+			</div>
+		</aside>
+
 		<div id="fh5co-events">
 			<div class="row animate-box">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
@@ -139,60 +175,19 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 animate-box">
-					<div class="events-entry">
-						<span class="date">March 10, 2017</span>
-						<h3><a href="#">Message From God</a></h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-					</div>
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="events-entry">
-						<span class="date">March 20, 2017</span>
-						<h3><a href="#">Message From God</a></h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-					</div>
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="events-entry">
-						<span class="date">March 30, 2017</span>
-						<h3><a href="#">Message From God</a></h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-					</div>
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="events-entry">
-						<span class="date">March 10, 2017</span>
-						<h3><a href="#">Message From God</a></h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-					</div>
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="events-entry">
-						<span class="date">March 20, 2017</span>
-						<h3><a href="#">Message From God</a></h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-					</div>
-				</div>
-				<div class="col-md-4 animate-box">
-					<div class="events-entry">
-						<span class="date">March 30, 2017</span>
-						<h3><a href="#">Message From God</a></h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-						<a href="#">Read More <i class="icon-arrow-right3"></i></a>
-					</div>
-				</div>
+				<!-- //// This is for aouncements upcomming events -->
+				<?php 
+				require "config/db.php";
+				require "views/views.php";
+				viewEvents("upcoming_event", $conn, 2, true);
+			?>
+				
 			</div>
 		</div>
 		<div id="fh5co-counter" class="fh5co-counters fh5co-light-grey">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center animate-box">
-					<p>We have a fun facts far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<p>We have a fun facts.</p>
 					</div>
 			</div>
 			<div class="row animate-box">
@@ -222,38 +217,7 @@
 	</div><!-- END container-wrap -->
 
 	<div class="container-wrap">
-		<footer id="fh5co-footer" role="contentinfo">
-			<div class="col-md-4 text-center">
-				<h3 style="text-transform: capitalize;">Citadel Of Mercy International Church KM 4 Lasu/Igando
-					Expressway Beside Mobile Filling Station, Lanre B/Stop, Igando, Lagos.</h3>
-			</div>
-			<div class="col-md-4 text-center">
-				<h2><a href="#">Citadel Of Mercy</a></h2>
-			</div>
-			<div class="col-md-4 text-center">
-				<p>
-				<ul class="fh5co-social-icons">
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<!-- <li><a href="#"><i class="icon-2"></i></a></li> -->
-				</ul>
-				</p>
-			</div>
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2022 Citadel Of Mercy. All Rights Reserved.</small>
-						<small class="block">Designed by <a href="#" target="_blank">wisteen-technology
-
-							</a>
-							<!-- $<a
-								href="#" target="_blank">wisteen</a> -->
-						</small>
-					</p>
-				</div>
-			</div>
-		</footer>
+	<?php require "parts/footer.php";?>
 	</div><!-- END container-wrap -->
 	</div>
 

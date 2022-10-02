@@ -527,7 +527,8 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-news,
 #fh5co-events,
 #fh5co-counter,
-#fh5co-footer {
+#fh5co-footer,
+#fh5co-main{
   padding: 5em 3em;
   clear: both;
 }
@@ -540,7 +541,8 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-news,
   #fh5co-events,
   #fh5co-counter,
-  #fh5co-footer {
+  #fh5co-footer,
+  #fh5co-main {
     padding: 3em 1em;
   }
 }
@@ -1369,4 +1371,20 @@ input[type="text"] {
 .Testimony{
   background-color: #fff;
   color: #d43f3a;
+}
+
+.hidetext{
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  width: 160px; 
+  height: 1.2em; 
+  white-space: nowrap;
+}
+
+.hidetexts{
+  display: block;
+    max-width: 98%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
 }
