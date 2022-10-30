@@ -1,77 +1,80 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Church &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
-	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="freehtml5.co" />
-
-	<!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FreeHTML5.co
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet"
-	>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>CITADEL OF MERCY</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Citadel of mercy - The Supernatural Chuch" />
+		<meta name="keywords" content="Citadel of mercy, Pastor Pascal Goodnews, Prayer and deliverance, Councilling." />
+		<meta name="author" content="Wisteen Technology" />
 	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
+		<!-- 
+		//////////////////////////////////////////////////////
+	
+		WISTEEN TECHNOLOGY
+		DESIGNED & DEVELOPED by Wisteen Technology
+			
+		Website: 		http://www.citadelofmercy.com/
+		Email: 			info@citadelofmercy.org
+		Twitter: 		http://
+		Facebook: 		https://
+	
+		//////////////////////////////////////////////////////
+		 -->
+	
+		<!-- Facebook and Twitter integration -->
+		<meta property="og:title" content="" />
+		<meta property="og:image" content="" />
+		<meta property="og:url" content="" />
+		<meta property="og:site_name" content="" />
+		<meta property="og:description" content="" />
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:image" content="" />
+		<meta name="twitter:url" content="" />
+		<meta name="twitter:card" content="" />
+	
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+	
+		<!-- Animate.css -->
+		<link rel="stylesheet" href="css/animate.css">
+		<!-- Icomoon Icon Fonts-->
+		<link rel="stylesheet" href="css/icomoon.css">
+		<!-- Bootstrap  -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+	
+		<!-- Magnific Popup -->
+		<link rel="stylesheet" href="css/magnific-popup.css">
+	
+		<!-- Flexslider  -->
+		<link rel="stylesheet" href="css/flexslider.css">
+	
+		<!-- Owl Carousel  -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css">
+		<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	
+		<!-- Theme style  -->
+		<link rel="stylesheet" href="css/style.css">
+	
+		 <!-- Shortcut -->
+		 <link rel="shortcut icon" href="images/logo church.png" type="image/x-icon">
+	
+	
+		<!-- Modernizr JS -->
+		<script src="js/modernizr-2.6.2.min.js"></script>
+		<!-- FOR IE9 below -->
+		<!--[if lt IE 9]>
+		<script src="js/respond.min.js"></script>
+		<![endif]-->
+	
 	</head>
 	<body>
 		
 	<div class="fh5co-loader"></div>
 	
 	<div id="page">
-	<?php require "parts/header.php"; ?>
+		<?php require "parts/header.php"; ?>
 	
 	<div class="container-wrap">
 		<aside id="fh5co-hero">
@@ -83,8 +86,8 @@
 			   			<div class="row">
 				   			<div class="col-md-6 col-md-offset-3 text-center slider-text">
 				   				<div class="slider-text-inner">
-				   					<h1>Watch Our Sermons</h1>
-										<h2>Free html5 templates Made by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a></h2>
+				   					<!-- <h1>Watch Our Sermons</h1> -->
+										<!-- //freehtml5.co/" target="_blank">freehtml5.co</a></h2> -->
 				   				</div>
 				   			</div>
 				   		</div>
@@ -97,11 +100,16 @@
 			<div class="row animate-box">
 				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
 					<h2>Our Sermons</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<p>Experience Gods througth his raw word!</p>
+					<!-- <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p> -->
 				</div>
 			</div>
+
 			<div class="row">
+
+				<!-- Add something here  -->
 				<div class="col-md-4 text-center animate-box">
+
 					<div class="sermon-entry">
 						<div class="sermon" style="background-image: url(images/sermon-1.jpg);">
 							<div class="play">
@@ -111,65 +119,17 @@
 						<h3>Soul Winning</h3>
 						<span>Pstr. John Doe</span>
 					</div>
+
 				</div>
-				<div class="col-md-4 text-center animate-box">
-					<div class="sermon-entry">
-						<div class="sermon" style="background-image: url(images/sermon-3.jpg);">
-							<div class="play">
-								<a class="popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play3"></i></a>
-							</div>
-						</div>
-						<h3>Message From God</h3>
-						<span>Pstr. John Doe</span>
-					</div>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<div class="sermon-entry">
-						<div class="sermon" style="background-image: url(images/sermon-2.jpg);">
-							<div class="play">
-								<a class="popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play3"></i></a>
-							</div>
-						</div>
-						<h3>Our World Today</h3>
-						<span>Pstr. John Doe</span>
-					</div>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<div class="sermon-entry">
-						<div class="sermon" style="background-image: url(images/sermon-1.jpg);">
-							<div class="play">
-								<a class="popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play3"></i></a>
-							</div>
-						</div>
-						<h3>Soul Winning</h3>
-						<span>Pstr. John Doe</span>
-					</div>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<div class="sermon-entry">
-						<div class="sermon" style="background-image: url(images/sermon-3.jpg);">
-							<div class="play">
-								<a class="popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play3"></i></a>
-							</div>
-						</div>
-						<h3>Message From God</h3>
-						<span>Pstr. John Doe</span>
-					</div>
-				</div>
-				<div class="col-md-4 text-center animate-box">
-					<div class="sermon-entry">
-						<div class="sermon" style="background-image: url(images/sermon-2.jpg);">
-							<div class="play">
-								<a class="popup-vimeo" href="https://vimeo.com/channels/staffpicks/93951774"><i class="icon-play3"></i></a>
-							</div>
-						</div>
-						<h3>Our World Today</h3>
-						<span>Pstr. John Doe</span>
-					</div>
-				</div>
+
+				<!-- What to add is a php -->
 			</div>
+<!-- The words in vedio formart ends here -->
 		</div>
-		<div id="fh5co-counter" class="fh5co-counters fh5co-light-grey">
+
+
+
+		<!-- <div id="fh5co-counter" class="fh5co-counters fh5co-light-grey">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center animate-box">
 					<p>We have a fun facts far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -198,37 +158,17 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div><!-- END container-wrap -->
-
-	<div class="container-wrap">
-		<footer id="fh5co-footer" role="contentinfo">
-			<div class="col-md-4 text-center">
-				<h3>198 West 21th Street, Suite 721 New York NY 10016</h3>
-			</div>
-			<div class="col-md-4 text-center">
-				<h2><a href="#">Church</a></h2>
-			</div>
-			<div class="col-md-4 text-center">
-				<p>
-					<ul class="fh5co-social-icons">
-						<li><a href="#"><i class="icon-twitter2"></i></a></li>
-						<li><a href="#"><i class="icon-facebook2"></i></a></li>
-						<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-					</ul>
-				</p>
-			</div>
-			<div class="row copyright">
-				<div class="col-md-12 text-center">
-					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
-					</p>
-				</div>
-			</div>
-		</footer>
-	</div><!-- END container-wrap -->
+		</div> -->
 	</div>
+	
+	<!-- END container-wrap -->
+
+	
+	<div class="container-wrap">
+		<?php require "parts/footer.php";?>
+	</div>
+	<!-- END container-wrap -->	
+</div>
 
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up2"></i></a>

@@ -154,28 +154,17 @@
 		<div id="fh5co-counter" class="fh5co-counters fh5co-light-grey">
 			<div class="row">
 				<div class="col-md-6 col-md-offset-3 text-center animate-box">
-				<p>Fun Facts!</p>
+				<p>Google map Location</p>
 			</div>
 			</div>
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="row">
-						<div class="col-md-3 col-sm-6 col-xs-6 text-center">
-							<span class="fh5co-counter js-counter" data-from="0" data-to="9452" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">Members</span>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-6 text-center">
-							<span class="fh5co-counter js-counter" data-from="0" data-to="214" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">Ministries</span>
-						</div>
-						<div class="clearfix visible-sm-block visible-xs-block"></div>
-						<div class="col-md-3 col-sm-6 col-xs-6 text-center">
-							<span class="fh5co-counter js-counter" data-from="0" data-to="433" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">Classes</span>
-						</div>
-						<div class="col-md-3 col-sm-6 col-xs-6 text-center">
-							<span class="fh5co-counter js-counter" data-from="0" data-to="512" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="fh5co-counter-label">Activities</span>
+						<div class="col-md-12 col-sm-6 col-xs-6 text-center">
+						<div class="bg-secondary rounded h-100 ">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1695.2431275402482!2d3.284354641191831!3d6.608581138896282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9058f1c45881%3A0xb3ce47ced3341429!2sPrestige%20Superstores!5e1!3m2!1sen!2sng!4v1666428945429!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="position-relative rounded w-100 h-100" ></iframe>
+
+                        </div>
 						</div>
 					</div>
 				</div>
