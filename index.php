@@ -94,9 +94,9 @@
 												<h2> Illuminating the light in Darkness<a href="#" target="_blank "
 														class="text-danger"></a></h2>
 												<p><a class="btn btn-danger btn-demo popup-vimeo"
-														href="sermons.php"> <i
+												href="https://www.youtube.com/channel/UCcLTt4pm6ii_JAqyDHD-q5Q/streams"> <i
 															class="icon-play4"></i> The Word </a> <a
-														class="btn btn-primary btn-learn btn-demo popup-vimeo" href="#">Join us Live! <i
+														class="btn btn-primary btn-learn btn-demo popup-vimeo" href="https://www.youtube.com/channel/UCcLTt4pm6ii_JAqyDHD-q5Q/streams">Join us Live! <i
 															class="icon-arrow-right3"></i></a></p>
 											</div>
 										</div>
@@ -114,9 +114,9 @@
 											<div class="slider-text-inner">
 												<h1>THE SUPERNATURAL CHURCH</h1>
 												<h2>aka Citadel Of Mercy <a href="#" target="_blank"></a></h2>
-												<p><a class="btn btn-primary btn-demo popup-vimeo" href="#"> <i
+												<p><a class="btn btn-primary btn-demo popup-vimeo" href="https://www.youtube.com/channel/UCcLTt4pm6ii_JAqyDHD-q5Q/streams"> <i
 															class="icon-play4"></i> Service</a> <a
-														class="btn btn-primary btn-learn">Join us here! <i
+														class="btn btn-primary btn-learn" href="https://www.youtube.com/channel/UCcLTt4pm6ii_JAqyDHD-q5Q/streams">Join us here! <i
 															class="icon-arrow-right3"></i></a></p>
 											</div>
 										</div>
@@ -134,9 +134,9 @@
 												<h1>Experience the power of Jesus</h1>
 												<h2>The Hand of God is our Evidience<a href="#" target="_blank"></a>
 												</h2>
-												<p><a class="btn btn-info btn-demo popup-vimeo" href="#"> <i
+												<p><a class="btn btn-info btn-demo popup-vimeo" href="https://www.youtube.com/channel/UCcLTt4pm6ii_JAqyDHD-q5Q/streams"> <i
 															class="icon-play4"></i> Deliverance </a> <a
-														class="btn btn-primary btn-learn">Join us here! <i
+														class="btn btn-primary btn-learn" href="https://www.youtube.com/channel/UCcLTt4pm6ii_JAqyDHD-q5Q/streams">Join us here! <i
 															class="icon-arrow-right3"></i></a></p>
 											</div>
 										</div>
@@ -167,7 +167,7 @@
 						<div class="row">
 							<div class="col-md-12 col-sm-6 col-xs-6 text-center">
 							<div class="bg-secondary rounded ">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1695.2431275402482!2d3.284354641191831!3d6.608581138896282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9058f1c45881%3A0xb3ce47ced3341429!2sPrestige%20Superstores!5e1!3m2!1sen!2sng!4v1666428945429!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="position-relative rounded w-100 h-100" ></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3963.3088080827933!2d3.28545!3d6.608497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9aac0914a3dd%3A0xe76846f6a385258d!2sCitadel%20Of%20Mercy%20Int&#39;l%20Ministry!5e0!3m2!1sen!2sng!4v1667844308560!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                         	</div>
 							</div>

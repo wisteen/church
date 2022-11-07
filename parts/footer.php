@@ -17,9 +17,9 @@
 				<div class="col-md-4 text-center">
 					<p>
 					<ul class="fh5co-social-icons">
-						<li><a href="#"><i class="icon-twitter2"></i></a></li>
-						<li><a href="#"><i class="icon-facebook2"></i></a></li>
-						<li><a href="#"><i class="icon-instagram"></i></a></li>
+						<li><a target="_blank" href="http://youtube.com/channel/UCcLTt4pm6ii_JAqyDHD-q5Q"><i class="icon-youtube2"></i></a></li>
+						<li><a target="_blank" href="https://m.facebook.com/profile.php?id=100046095321520&eav=AfbRDaUZxIsH5YX1ypsUmawXwN-olxTy6uHn1XPff1cg8Gah-z-zbj-duupsspuwszU&ref=py_c&paipv=0"><i class="icon-facebook2"></i></a></li>
+						<li><a target="_blank" href="https://instagram.com/pascalgoodsnr?igshid=YmMyMTA2M2Y="><i class="icon-instagram"></i></a></li>
 						<!-- <li><a href="#"><i class="icon-2"></i></a></li> -->
 					</ul>
 					</p>

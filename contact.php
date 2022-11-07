@@ -109,8 +109,8 @@
 					<ul class="contact-info">
 						<li><i class="icon-location4"></i>Citadel Of Mercy International Church KM 4 Lasu/Igando Expressway Beside Mobile Filling Station, Lanre B/Stop, Igando, Lagos</li>
 						<li><i class="icon-phone3"></i><a href="tel:07061278308" >+234 7061 278 307 </a></li>
-						<li><i class="icon-location3"></i><a href="mailto:wisdomissac@gmail.com">info@yoursite.com</a></li>
-						<li><i class="icon-globe2"></i><a href="#">@citadel_hh</a></li>
+						<li><i class="icon-location3"></i><a href="mailto:wisdomissac@gmail.com">admin@citadelofmercy.com</a></li>
+						<li><i class="icon-globe2"></i><a href="https://citadelofmercy.com">citadelofmercy.com</a></li>
 					</ul>
 				</div>
 				<div class="col-md-7 col-md-pull-2 animate-box">
@@ -162,8 +162,7 @@
 					<div class="row">
 						<div class="col-md-12 col-sm-6 col-xs-6 text-center">
 						<div class="bg-secondary rounded h-100 ">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1695.2431275402482!2d3.284354641191831!3d6.608581138896282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9058f1c45881%3A0xb3ce47ced3341429!2sPrestige%20Superstores!5e1!3m2!1sen!2sng!4v1666428945429!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="position-relative rounded w-100 h-100" ></iframe>
-
+								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3963.3088080827933!2d3.28545!3d6.608497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9aac0914a3dd%3A0xe76846f6a385258d!2sCitadel%20Of%20Mercy%20Int&#39;l%20Ministry!5e0!3m2!1sen!2sng!4v1667844308560!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
 						</div>
 					</div>

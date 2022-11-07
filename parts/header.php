@@ -9,10 +9,10 @@
 						<div class="col-md-12 col-md-offset-0 text-center menu-1">
 							<ul>
 								<li ><a href="index.php">Home</a></li>
-								<li><a href="sermons.php">Sermons</a></li>
+								<li><a href="http://youtube.com/channel/UCcLTt4pm6ii_JAqyDHD-q5Q">Sermons</a></li>
 								<li><a href="#">Join us Live</a> </li>
 								<li><a href="events.php?id=100">Events</a></li>
-								<li><a href="about.php">About</a></li>
+								<li><a href="#">About</a></li>
 								<li><a href="contact.php">Contact</a></li>
 								<li><a href="./parts/donate.php" class="donate btn-demo popup-vimeo">Donate</a></li>
 							</ul>
