@@ -162,7 +162,8 @@
 					<div class="row">
 						<div class="col-md-12 col-sm-6 col-xs-6 text-center">
 						<div class="bg-secondary rounded h-100 ">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3963.3088080827933!2d3.28545!3d6.608497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9aac0914a3dd%3A0xe76846f6a385258d!2sCitadel%20Of%20Mercy%20Int&#39;l%20Ministry!5e0!3m2!1sen!2sng!4v1667844308560!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3963.3088080827933!2d3.28545!3d6.608497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9aac0914a3dd%3A0xe76846f6a385258d!2sCitadel%20Of%20Mercy%20Int&#39;l%20Ministry!5e0!3m2!1sen!2sng!4v1667846474627!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+						<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3963.3088080827933!2d3.28545!3d6.608497!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9aac0914a3dd%3A0xe76846f6a385258d!2sCitadel%20Of%20Mercy%20Int&#39;l%20Ministry!5e0!3m2!1sen!2sng!4v1667846411872!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
                         </div>
 						</div>
 					</div>
